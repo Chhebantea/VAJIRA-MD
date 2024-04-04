@@ -13,17 +13,17 @@
     "env": {
     "HEROKU_API_KEY": {
             "description": "Enter your heroku account api key",
-            "required": true,
+            "required": false,
             "value": ""
         },
         "HEROKU_APP_NAME": {
             "description": "Enter you pushed app Name",
-            "required": true,
+            "required": false,
             "value": ""
         },
         "MONGO_DB": {
             "description": "your mongodb database url",
-            "required": true,
+            "required": false,
             "value": "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority"
         },
         "LOGO": {
